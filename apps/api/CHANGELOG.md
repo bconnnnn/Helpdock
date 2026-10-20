@@ -1,5 +1,13 @@
 # @helpdock/api
 
+## 1.0.2
+
+### Patch Changes
+
+- [#268](https://github.com/Docker-Hunterpedia/Helpdock/pull/268) [`cf5c601`](https://github.com/Docker-Hunterpedia/Helpdock/commit/cf5c6017e114c74b4eaf966f801b244027edf2bb) Thanks [@Docker-Hunterpedia](https://github.com/Docker-Hunterpedia)! - Contacts: a ticket marked as spam no longer appears on a contact's timeline or the ticket screen's Previous tickets, and no longer counts in the timeline's visible and hidden counts, the contact list's ticket counts and CSAT, or the contact merge dialog's ticket counts. Merged tickets are still listed.
+
+- [#269](https://github.com/Docker-Hunterpedia/Helpdock/pull/269) [`ff56f0a`](https://github.com/Docker-Hunterpedia/Helpdock/commit/ff56f0aa3454af7f14d50c91a60085aa54acf087) Thanks [@Docker-Hunterpedia](https://github.com/Docker-Hunterpedia)! - Security page: a Sign-in providers card lists Google and GitHub with their link state and connects or disconnects them behind the password or a live code, so nobody has to call the API to reconnect a provider after 1.0.1. `GET /api/auth/oauth/identities` now also answers `passwordSet`, and disconnecting an account's last way in (no password and no other provider) is refused with `oauth-last-sign-in` (409).
+
 ## 1.0.1
 
 ### Patch Changes
